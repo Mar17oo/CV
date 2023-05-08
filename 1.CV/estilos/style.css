@@ -15,8 +15,8 @@ body {
 }
 
 .header-content-right h1{
-     font-size: 35px;
-     text-align: center;
+    font-size: 35px;
+    text-align: center;
 }
 
 .header-content-right h2{
@@ -47,4 +47,5 @@ footer{
     object-fit: cover;
     width: 280px;
     height: 280px;
+
 }

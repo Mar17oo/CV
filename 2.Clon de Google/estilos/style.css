@@ -1,0 +1,165 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0px;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.primero{
+    width: 100%;
+    height: 60%;
+}
+
+.primero nav, ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar a{
+    margin-right: 20px;
+    color: black;
+}
+
+ul .icono_apps{
+    background-image: url('/imagenes/icono_apps.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.navbar img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/*Styles main*/
+
+main{
+    text-align: center;
+}
+main .logo{
+    width: 530px;
+    margin: 0 auto; /*margen top y bootoom 0 y a la derecha e izquierda auto*/
+    margin-bottom: 35px;
+}
+
+main .logo img{
+    width: 272px;
+}
+
+main .input{
+    width: 530px;
+    margin: 0 auto; /*margen top y bootoom 0 y a la derecha e izquierda auto*/
+    margin-bottom: 35px;
+}
+
+main .input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #ececec;
+    display: flex;
+    justify-content: center;
+}
+main .input-container:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.input-container input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none; /*quitar linea por default que tiene*/
+}
+
+ #buscador{
+    background-image: url('/imagenes/icono_buscador.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    padding: 3%;
+    cursor: pointer;
+}
+
+#icono_voz {
+    background-image: url('/imagenes/icono_voz.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    padding: 3%;
+}
+
+main .botones{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .botones button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+main .botones button:hover{
+    border: 1px #ececec;
+    box-shadow: 1px;
+    color: grey;
+}
+
+
+/*comienza footer-link*/
+
+footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0; /*estra abajo*/
+    background-color: #ececec;
+
+}
+
+.mi-contenedor-2 {
+    height: 50px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+.mi-contenedor-3 {
+    height: 50px;
+    color: #70757a;
+}
+
+.mi-contenedor-3 > div {
+
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.mi-contenedor-3 .footer2{
+    padding: 15px 30px;
+    margin-left: auto ;
+}
