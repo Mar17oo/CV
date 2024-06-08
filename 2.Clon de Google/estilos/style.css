@@ -22,22 +22,15 @@ a{
     align-items: center;
 }
 
-.navbar a{
-    margin-right: 20px;
-    color: black;
+.navbar a { /* Styles for navbar links */
+    margin-right: 20px; /* Add space between links */
+    color: black; /* Set link text color */
 }
 
-ul .icono_apps{
-    background-image: url('/imagenes/icono_apps.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 20px;
-    height: 20px;
-}
-
-.navbar img{
+.navbar img {
+    /* Rounds the corners of the image */
     border-radius: 50%;
+    /* Adds space to the left of the image */
     margin-left: 10px;
 }
 
